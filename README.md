@@ -1,9 +1,11 @@
 # Stock Analysis for Steve
 # Overview
 ### Background
--
+This analysis was done for Steve, who wants to help his clients diversify their financial funds. Steve's clients are passionate about green energy stocks and Steve wants to help his clients diversify their funds since currently all of their funds are being placed into DAQO New Energy Corp Stock.
+
 ### Purpose
--
+Steve has reached out for an analysis to help him analyze green energy stocks that show him an analysis of which stocks would be best. Steve has requested an analysis that he could reuse with other types of stocks or years and provide the least amount of errors or accidents. To create this analysis, Steve provided us with green energy stock data from 2017 and 2018 and the analysis is using Microsoft's Visual Basic for Applications to ensure that Steve can run it at the click of a button with any kind of data.
+
 # Results
 ### Stock Performance Comparisons between 2017 and 2018
 When comparing stock performaces between 2017 and 2018, the most important note to make is that in 2018 there was not enough of a daily volume for several of the stocks to have a positive return. Only two stocks, ENPH and RUN, would be considered as a "good investments" because there return rate was over 80% and their daily volume increased over $200 million within a year. 
