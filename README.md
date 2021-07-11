@@ -81,7 +81,15 @@ The next images are from our refactored script, you can see here how the time de
 ![VBA_Challenge_2018](Resources/VBA_Challenge_2018.png)
 
 # Summary
-## Advantages and/or disadvantages of Refactoring Code
--
-## Pros and Cons of applying refactoring to the original VBA script
--
+### Advantages and/or disadvantages of Refactoring Code
+#### Advantages
+* Refactoring the code allowed for a faster process run time, since we restructured the bigger processes that the computer spends time running.
+* The ability to find an error is much quicker in the refactored code, since there is less code it was easier to debug and find the root cause of any errors. Bouncing off of this advantage, finding an error can also mean finding areas in the original code where improvement can be made (i.e. any unneccessary variables or loops) which results in ultimately a better script for the user and programmer.
+
+
+#### Disadvantages
+* The process of refactoring takes apart a script that is already working and produces the results. With refactoring there is always a chance that if not done correctly, the end result will not be the same or new errors that were not accounted for are now occurring. 
+* Since a new process will be introduced, a review of the process would be required. This entails that additional time would be taken to ensure that the new process, or new refactored script, is successful. The end can justify the means, but when considering refactoring in programs/scripts the bigger picture must be kept in mind. The client's timeline and needs must be at, if refactoring would take too long or if it is not producing the same results then this is a large disadvantage to refactoring.
+
+### The pros and cons of refactoring and how they apply to the original VBA script
+Looking at the pros and cons listed above, as mentioned the end justified the means. The pros outweighed the cons in terms of our original VBA script. While refactoring, it was easy to notice that there were unnecessary loops which were slowing our runtime and performance down. The refactoring process showed that a review of the analysis was needed, and a test to make sure that the refactoring process was successful not just in the results produced but also run time.
