@@ -8,9 +8,13 @@
 ### Stock Performance Comparisons between 2017 and 2018
 When comparing stock performaces between 2017 and 2018, the most important note to make is that in 2018 there was not enough of a daily volume for several of the stocks to have a positive return. Only two stocks, ENPH and RUN, would be considered as a "good investments" because there return rate was over 80% and their daily volume increased over $200 million within a year. 
 
-To take this analysis further for Steve, we can show with the tables below that although DQ's daily volume tripled the volume was not enough to account for a positive return. 
+To take this analysis further for Steve, we can show with the tables below that although DQ's daily volume tripled the volume was not enough to account for a positive return. This can be shown by taking a look at the data below:
+
+![2017_Analysis](Resources/2017_Analysis.png)
+![2018_Analysis](Resources/2018_Analysis.png)
   
-### Comparing Original and Refactored Script
+### Comparing Original and Refactored Analysis
+#### Script Comparison
 With the original script, the analysis was based within a nested for loop. This means that there was an inner loop which was performing the stock analysis, and also outside of the inner loop (the outer loop) the script would output the relevant data for the stock.
 ```vba
 'Loop through the tickers.
@@ -65,7 +69,16 @@ For i = 0 To 11
   Cells(4 + i, 1).Value = tickers(i)
 Next i
 ````
+#### Run Time Comparison
+After refactoring and comparing the scripts, we can also show how refactoring improved our run time. Our original script for both 2017 and 2018, ran for about 0.7 seconds while our refactored script ran for about 0.16 seconds for both. This means that our analysis was improved by 0.5 seconds with the refactored script.
 
+Below are screenshots showing the exact run times we produced. The following images are from our original script:
+![Green_Stock_2017](Resources/Green_Stocks_2017.png)
+![Green_Stock_2018](Resources/Green_Stock_2018.png)
+
+The next images are from our refactored script, you can see here how the time decreased for both years:
+![VBA_Challenge_2017](Resources/VBA_Challenge_2017.png)
+![VBA_Challenge_2018](Resources/VBA_Challenge_2018.png)
 
 # Summary
 ## Advantages and/or disadvantages of Refactoring Code
