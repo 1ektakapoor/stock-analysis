@@ -4,11 +4,11 @@
 This analysis was done for Steve, who wants to help his clients diversify their financial funds. Steve's clients are passionate about green energy stocks and Steve wants to help his clients diversify their funds since currently all of their funds are being placed into DAQO New Energy Corp Stock.
 
 ### Purpose
-Steve has reached out for an analysis to help him analyze green energy stocks that show him an analysis of which stocks would be best. Steve has requested an analysis that he could reuse with other types of stocks or years and provide the least amount of errors or accidents. To create this analysis, Steve provided us with green energy stock data from 2017 and 2018 and the analysis is using Microsoft's Visual Basic for Applications to ensure that Steve can run it at the click of a button with any kind of data.
+Steve has reached out for an analysis to help him analyze green energy stocks that show him which stocks would be best to invest in. Steve has requested an analysis that he could reuse with other types of stocks or other years and provide the least amount of errors or accidents. To create this analysis, Steve provided us with green energy stock data from 2017 and 2018 and the analysis was done using Microsoft's Visual Basic for Applications to ensure that Steve can run it at the click of a button with any kind of data.
 
 # Results
 ### Stock Performance Comparisons between 2017 and 2018
-When comparing stock performaces between 2017 and 2018, the most important note to make is that in 2018 there was not enough of a daily volume for several of the stocks to have a positive return. Only two stocks, ENPH and RUN, would be considered as a "good investments" because there return rate was over 80% and their daily volume increased over $200 million within a year. 
+When comparing stock performances between 2017 and 2018, the most important note to make is that in 2018 there was not enough of a daily volume for several of the stocks to have a positive return. Only two stocks, ENPH and RUN, would be considered as "good investments" because theire= return rate was over 80% and their daily volume increased over $200 million within a year. 
 
 To take this analysis further for Steve, we can show with the tables below that although DQ's daily volume tripled the volume was not enough to account for a positive return. This can be shown by taking a look at the data below:
 
@@ -86,12 +86,12 @@ The next images are from our refactored script, you can see here how the time de
 ### Advantages and/or disadvantages of Refactoring Code
 #### Advantages
 * Refactoring the code allowed for a faster process run time, since we restructured the bigger processes that the computer spends time running.
-* The ability to find an error is much quicker in the refactored code, since there is less code it was easier to debug and find the root cause of any errors. Bouncing off of this advantage, finding an error can also mean finding areas in the original code where improvement can be made (i.e. any unneccessary variables or loops) which results in ultimately a better script for the user and programmer.
+* The ability to find an error is much quicker in the refactored code, since there is less code it is easier to debug and find the root cause of any errors. Bouncing off of this advantage, finding an error can also mean finding areas in the original code where improvement can be made (i.e. any unneccessary variables or loops) which results in ultimately a better script for the user and programmer.
 
 
 #### Disadvantages
 * The process of refactoring takes apart a script that is already working and produces the results. With refactoring there is always a chance that if not done correctly, the end result will not be the same or new errors that were not accounted for are now occurring. 
-* Since a new process will be introduced, a review of the process would be required. This entails that additional time would be taken to ensure that the new process, or new refactored script, is successful. The end can justify the means, but when considering refactoring in programs/scripts the bigger picture must be kept in mind. The client's timeline and needs must be at, if refactoring would take too long or if it is not producing the same results then this is a large disadvantage to refactoring.
+* Since a new process will be introduced, a review of the process would be required. This entails that additional time would be taken to ensure that the new process, or new refactored script, is successful. The end can justify the means, but when considering refactoring in programs/scripts the bigger picture must be kept in mind. The client's timeline and needs must be met, if refactoring would take too long or if it is not producing the same results then this is a large disadvantage to refactoring.
 
 ### The pros and cons of refactoring and how they apply to the original VBA script
-Looking at the pros and cons listed above, as mentioned the end justified the means. The pros outweighed the cons in terms of our original VBA script. While refactoring, it was easy to notice that there were unnecessary loops which were slowing our runtime and performance down. The refactoring process showed that a review of the analysis was needed, and a test to make sure that the refactoring process was successful not just in the results produced but also run time.
+Looking at the pros and cons listed above, as mentioned the end justified the means in Steve's case. The pros outweighed the cons in terms of our original VBA script. While refactoring, it was easy to notice that there were unnecessary loops which were slowing our runtime and performance down. The refactoring process showed that a review of the analysis was needed, and a test to make sure that the refactoring process was successful not just in the results produced but also run time.
